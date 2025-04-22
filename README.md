@@ -45,21 +45,37 @@ This project implements a basic courtroom trial simulation using Large Language 
 ## Project Structure
 
 courtroom_simulation/
+
 ├── agents/             # Contains code for different agent roles
+
 │   ├── init.py
+
 │   ├── base_agent.py   # Base class for all agents
+
 │   ├── judge.py        # Judge agent
+
 │   ├── lawyer.py       # Prosecution and Defense lawyers
+
 │   ├── witness.py      # Witness agent
+
 │   └── jury.py         # Jury agent (Optional, if implemented)
+
 ├── case_data/          # Contains the case narrative and evidence details
+
 │   ├── init.py
+
 │   └── mahesh_murder_case.py # Specific case data
+
 ├── simulation/         # Contains the main simulation logic
+
 │   ├── init.py
+
 │   └── courtroom.py    # Courtroom environment and simulation runner
+
 ├── main.py             # Entry point to run the simulation
+
 └── .env                # Stores environment variables like API keys
+
 
 ## Running the Simulation
 
