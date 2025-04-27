@@ -26,7 +26,6 @@ CASE_DETAILS = {
     ]
 }
 
-# You can add more detailed witness knowledge here
 WITNESS_KNOWLEDGE = {
     "Store Owner": {
         "discovery_time": "Approximate time the body was found.",
@@ -40,5 +39,4 @@ WITNESS_KNOWLEDGE = {
         "mahesh_mood_recent": "Mahesh's mood or behavior leading up to the incident.",
         "knowledge_of_suspects": "Any knowledge about the neighbours or office mates."
     },
-    # Add knowledge for other family members, neighbours, and office mates
 }
